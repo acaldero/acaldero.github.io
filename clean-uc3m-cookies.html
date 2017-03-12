@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -15,7 +16,8 @@ function borrarCookiesPortalUc3m()
 function borrarCookie( name, domain, path ) 
 {
 	var valor;
-	if( getCookie( name ) ){
+	if ( getCookie( name ) )
+	{
 		document.cookie = name + "=" +
 		( ( path ) ? ";path=" + path : "") +
 		( ( domain ) ? ";domain=" + domain : "" ) +
@@ -26,7 +28,8 @@ function borrarCookie( name, domain, path )
 function borrarCookieHost( name, host, path ) 
 {
 	var valor;
-	if( getCookie( name ) ){
+	if ( getCookie( name ) )
+	{
 		document.cookie = name + "=" +
 		( ( path ) ? ";path=" + path : "") +
 		( ( host ) ? ";host=" + host : "" ) +
@@ -36,12 +39,13 @@ function borrarCookieHost( name, host, path )
 
 function getCookie( c_name )
 {
-	if( document.cookie.length > 0 ){
+	if ( document.cookie.length > 0 )
+	{
 		c_start = document.cookie.indexOf( c_name + "=");
-		if( c_start!=-1 ){ 
+		if ( c_start!=-1 ) { 
 			c_start = c_start + c_name.length+1; 
 			c_end = document.cookie.indexOf( ";", c_start );
-			if( c_end==-1 ){
+			if ( c_end==-1 ) {
 				c_end=document.cookie.length;
 			}
 			return unescape( document.cookie.substring( c_start, c_end ) );
@@ -52,7 +56,7 @@ function getCookie( c_name )
 </script>
 
 
-<div data-dialog="true" id="panel3" data-overlay-theme="b" data-theme="a">
+<div data-role="popup" data-close-btn="right" data-dialog="true" id="panel3" data-overlay-theme="b" data-theme="a">
           <div data-role="content">
             <center>
             <h1>Are you really sure you want to <br> remove the UC3M cookies? :-/</h1>
@@ -62,13 +66,15 @@ function getCookie( c_name )
 
           <div data-role="footer">
             <center>
-            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); return false;">Ok</a>
+            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); $('#panel3').popup('close'); return false;">Ok</a>
             &nbsp;
             <a href="#main" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Cancel</a>
             </center>
           </div>
 </div>
 
+
+<a href="#panel3" data-rel="popup" data-role="button" data-inline="true"><h2>Clear Cookies</h2></a>
 
 <script>
 $('#panel3').popup('open');
