@@ -62,7 +62,7 @@ function getCookie( c_name )
 
           <div data-role="footer">
             <center>
-            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); $('#panel3').popusp('close'); return false;">Ok</a>
+            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); $('#panel3').popup('close'); return false;">Ok</a>
             &nbsp;
             <a href="#main" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Cancel</a>
             </center>
@@ -70,6 +70,5 @@ function getCookie( c_name )
 </div>
 
 
-<a href="#" onclick="borrarCookiesPortalUc3m();">Borrar</a>
-<a href="#panel3" data-rel="popup"><h2>Clear Cookies</h2></a>
+<a href="#panel3" data-rel="popup" data-role="button" data-inline="true"><h2>Clear Cookies</h2></a>
 
