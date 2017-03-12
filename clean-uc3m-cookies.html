@@ -52,7 +52,7 @@ function getCookie( c_name )
 </script>
 
 
-<div data-role="popup" data-close-btn="right" data-dialog="true" id="panel3" data-overlay-theme="b" data-theme="a">
+<div data-dialog="true" id="panel3" data-overlay-theme="b" data-theme="a">
           <div data-role="content">
             <center>
             <h1>Are you really sure you want to <br> remove the UC3M cookies? :-/</h1>
@@ -62,7 +62,7 @@ function getCookie( c_name )
 
           <div data-role="footer">
             <center>
-            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); $('#panel3').popup('close'); return false;">Ok</a>
+            <a href="#" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="borrarCookiesPortalUc3m(); return false;">Ok</a>
             &nbsp;
             <a href="#main" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Cancel</a>
             </center>
@@ -70,5 +70,7 @@ function getCookie( c_name )
 </div>
 
 
-<a href="#panel3" data-rel="popup" data-role="button" data-inline="true"><h2>Clear Cookies</h2></a>
+<script>
+$('#panel3').popup('open');
+</script>
 
