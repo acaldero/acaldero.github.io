@@ -118,6 +118,8 @@ Publicaciones a destacar:
 * [MiMPI](https://github.com/acaldero/MiMPI/wiki) `GPL2`
 * [SpiderBot](https://github.com/acaldero/SpiderBot/wiki) `GPL2`
 
+[![Alejandro's GitHub stats](https://github-readme-stats.vercel.app/api?username=acaldero)](https://github.com/acaldero/github-readme-stats)
+
 
 ## Seminarios y charlas
 
