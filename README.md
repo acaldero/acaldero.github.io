@@ -30,8 +30,8 @@ Disponible el material bajo licencia [CC BY-NC 4.0](http://creativecommons.org/l
 
 * Grado en Ingeniería Informática:
   * [Diseño de Sistemas Operativos](https://github.com/acaldero/slides/)
-  * [Sistemas Operativos](https://github.com/acaldero/slides/)
-  * [Estructura de Computadores](https://github.com/acaldero/slides/)
+  * [Sistemas Operativos](https://github.com/acaldero/uc3m_so/)
+  * [Estructura de Computadores](https://github.com/acaldero/uc3m_ec/)
 * Máster en Ciencia y Tecnología Informática:
   * [Diseño de sistemas distribuidos](https://github.com/acaldero/slides/)
 * Métodos Analíticos para Datos Masivos: Big Data / Master in Big Data Analytics:
@@ -125,8 +125,9 @@ Publicaciones a destacar:
 Seminarios para el Grupo de Usuarios de Linux (GUL) de la UC3M:
 * [Experimentar fácilmente con sistemas RAID](http://wiki.gul.es/doku.php?id=charlas_definitivas_marzo_2006#raid)
   * [Video con la charla](https://arcamm.uc3m.es/arcamm_3/item/show/2136978c5506dfa18ed5aee01a0c7b68?title=Gul)
-  * [gul-raid-v4i.pdf](http://es.slideshare.net/AlejandroCalderonMat/grupo-de-usuarios-de-linux-de-la-uc3m-sistemas-raid-v4)
-* [Introducción a la virtualización de plataforma](http://wiki.gul.es/doku.php?id=charlas_definitivas_marzo_2007#virtualizacion)
+  * [gul-raid-v4i.pdf](https://acaldero.github.io/uc3m_linux/slides/GUL-raid-v4.pdf)
+* [Introducción a la virtualización de plataforma](https://cloud.gul.es/ftp?path=%2Factividades%2F2007%2Fmarzo%2Fvirtualizacion)
+
 
 ## Recopilación de enlaces útiles
 
